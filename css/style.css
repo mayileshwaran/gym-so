@@ -1,0 +1,526 @@
+
+.active a{
+    color: orangered;
+}
+
+nav ul li:hover a{
+    color: orangered;
+}
+.icon i{
+    display: none;
+    color: orangered;
+}
+.icon input{
+    display: none;
+}
+body {
+    font-family:  sans-serif;
+  }
+
+nav{
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    width: 100%;
+    justify-self: baseline;
+    align-items: baseline;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    align-self: center;
+}
+nav h1{
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+}
+nav ul a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+    font-size: 12px;
+}
+nav ul .social-media{
+    display: flex;
+    gap: 20px;
+}
+.banner{
+    display: flex;
+    align-content: center;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 98%;
+    background-color: rgb(0,0,0,0.8);
+    background-image: url(../images/home.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: -5px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.banner h1{
+    color: white;
+    font-size: 60px;
+    width: 50%;
+    display: flex;
+    align-self: center;
+}
+.banner p{
+    color: white;
+    font-size: 20px;
+    align-self: center;
+}
+.banner .button{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.banner .button h{
+    color: white;
+    font-size: 16px;
+}
+.pri-but{
+    border: 2px solid orangered;
+    color: orangered;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.sec-but{
+    border: 2px solid orangered;
+    background-color: orangered;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timsec{
+    width: 97%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: black;
+    padding: 10px;
+}
+.timsec-left{
+    width: 30%;
+    color: white;
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+.timsec-left p{
+    color: gray;
+}
+.timsec-left h{
+    color: white;
+}
+.timsec-right{
+    width: 30%;
+    color: white;
+}
+.timsec-right p{
+    color: gray;
+}
+.timsec-right h{
+    color: white;
+}
+.cards{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+   
+    gap: 50px;
+    width: 98%;
+}
+
+.cards .cards-left{
+    width: 30%;
+}
+.cards .cards-left p{
+    color: gray;
+}
+.cards .cards-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 200px;
+    box-shadow: 6px 0px 38px rgba(20, 20, 20, 0.10);
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+}
+.cards-right img{
+    width: 200px;
+    height: 200px;
+ 
+}
+.cards-right .cardd {
+    display: flex;
+    height: 50px;
+    
+     
+    }
+    .cardd ul{
+        list-style: none;
+        align-self: start;
+        position: relative;
+        left: 0px;
+    }
+.social-icon{
+   
+    list-style: none;
+    
+    gap: 0px;
+
+}
+.cards-right h4{
+    display: inline;
+    align-content:  start;
+}
+.cards-right p{
+    display: inline;
+    align-content: start;
+}
+.amount{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    gap:100px;
+    
+    
+}
+.amount .card2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.heading{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.amount .card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(243, 243, 243);
+    align-items: start;
+    justify-content: start;
+    gap:-5px;
+  }
+  .card h{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+    
+    background-color: orangered;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+.amount .card img{
+    width: 300px;
+    height: 300px;
+    object-position: center;
+    object-fit: cover;
+}
+tr:nth-child(1){
+    background-color: orangered;
+    padding: 10px;
+}
+tr th{
+    background-color: orangered;
+}
+table{
+    background-color: rgb(26, 22, 22);
+    color: white;
+    overflow-x: scroll;
+     width: auto;
+}
+th ,td{
+    padding: 10px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+} 
+.table{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26, 22, 22);
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll ;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+  
+}
+.table h1,h{
+    color: white;
+}
+.table p{
+    color: gray;
+}
+.ter-but{
+     background-color: rgb(26, 22, 22);
+     color: white;  
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10px; 
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    width: 90%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    padding: 10px;
+}
+.form-right .add{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: center; */
+}
+.form .form-left{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 19px;
+        align-self: start;
+        width: 50%;
+}
+.form .form-right{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-self: start;
+    align-items: start;
+    width: 50%;
+    justify-content: start;
+}
+.form-right i{
+    color: orangered;
+   }
+   .form-right iframe{
+    border-top: 1px solid gray;
+   }
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+}
+.footer .right-foot{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .left-foot a{
+    display: flex;
+    text-decoration-line: none;
+    text-decoration-color: none;
+    color: orangered;
+}
+.footer .left-foot{
+    display: flex;
+    
+    gap: 20px;
+    padding: 20px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 98%;
+    background-color: rgb(0,0,0,0.8);
+    background-image: url(../images/about.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.about h1{
+    color: white;
+}
+.classes{
+
+    height: 80vh;
+    width: 98%;
+    background-color: rgb(0,0,0,0.8);
+    background-image: url('../images/classes.jpg');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.classes h1{
+    color: white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 98%;
+    background-color: rgb(0,0,0,0.8);
+    background-image: url('../images/contact-sample.jpg');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.banner{
+    width: 98%;
+    height: 100vh;
+}
+.contact h1{
+    color: white;
+}
+.schedule{
+    display: flex;
+    background-position: top;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    align-self: center;
+    justify-self: center;
+    width: 98%;
+    background-color: rgb(0,0,0,0.2);
+    background-image: url(../images/schedule.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.schedule h1{
+    color: white;
+}
+.card2 .card .det{
+    display: flex;
+    gap: 100px;
+}
+@media only screen and (max-width:900px){
+    nav .icon i {
+        display: block;
+        color: white;
+        position: absolute;
+        top: 20px;
+        right:20px
+    }
+  
+   nav{
+     gap: 20px;
+     display: flex;
+     align-items: start;
+     justify-content: space-between;
+    width: 95%;
+    padding-right: 3%;
+   }
+   
+    nav ul{
+        gap: 20px;
+        position: absolute;
+        flex-direction: column;
+        background-color: black;
+        width: auto;
+        align-items: start;
+        top: -220px;
+        z-index: 3;
+
+    }
+    .cards-left{
+        width: 70%;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #nav:checked~ul{
+        top: 40px;
+       left: 40PX;
+       padding: 20px;
+        transition-duration: 7ms;
+    }
+    .timsec{
+        flex-direction: column;
+        align-items: center;
+        width: 98%;
+        justify-content: center;
+    }
+    .timsec-left{
+        width: 70%;
+        border-right: none;
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+    }
+    .timesec-right{
+        width: 70%;
+     }
+    .table{
+        overflow: scroll;
+    }
+    .amount{
+         align-items: start;
+         justify-content: start;
+    }
+    .amount .card2{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    .form{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        width: 98%;
+        margin: 10px;
+    }
+    form input{
+        padding: 10px;
+    }
+    .form iframe{
+        width: 200px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+ }
